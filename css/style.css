@@ -88,3 +88,23 @@ body{
     border-radius: 50px;
     border-width: 1px;
 }
+
+/*Style for section 1*/
+
+.section1{
+    background-image: linear-gradient(to bottom, #1024d4, rgb(0, 238, 255));
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 500px;
+    color: white;
+}
+
+.section1-headers h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.section1-headers h2{
+    margin-top: -30px;
+}
