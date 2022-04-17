@@ -45,7 +45,8 @@ body{
   
   /* Add a red background color to navbar links on hover */
   .navbar-menu a:hover, button:hover{
-    background-color: rgba(124, 124, 124, 0.26);
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 20px;
   }
   
   /* Dropdown content (hidden by default) */
@@ -79,6 +80,7 @@ body{
     display:block;
     margin-top: 50px;
     border-radius: 20px;
+    padding: 0px;
   }
 
 .menu-btn{
