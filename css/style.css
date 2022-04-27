@@ -446,3 +446,55 @@ body{
   background-color: #ffffff;
   text-decoration: none;
 }
+
+/* Style for the section 5 */
+
+.know-us{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  max-width: 1000px;
+  border: solid 1px lightgrey;
+  border-radius: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+.know-us-header h1{
+  margin: 0px;
+}
+
+.know-us-header p{
+  font-size: x-large;
+  font-weight: normal;
+  color: #08155ca9;
+}
+
+.know-us-grid {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: auto auto auto;
+  gap: 1px;
+}
+
+.know-us-item {
+  height: auto;
+}
+
+.know-us-item img{
+  max-width:50%;
+  border-radius: 100%;
+}
+
+.know-us-item h4{
+  color: #000000c4;
+  font-size: x-large;
+}
+
+.know-us-item p{
+  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.650);
+}
+
