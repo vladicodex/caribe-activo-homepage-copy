@@ -140,6 +140,7 @@ body{
 
 .section2{
   margin-top: -55px;
+  padding-bottom: 55px;
   margin-left: -10px;
   margin-right: -10px;
   padding-left: 100px;
@@ -152,6 +153,7 @@ body{
   padding-top: 50px;
   color: #08145c;
   font-size: 80px;
+  line-height: 70px;
 }
 
 .section2 h1{
@@ -335,3 +337,70 @@ body{
   margin-top: -10px;
   margin-bottom: -5px;
 }
+
+/*Style for section 3*/
+
+.section3{
+  margin-top: -20px;
+  padding-bottom: 55px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: auto;
+  background-color: #f1faff;
+}
+
+.quality-title{
+  height: auto;
+  width: 600px;
+  margin: auto;
+}
+
+.quality-title h3{
+  padding-top: 100px;
+  margin-bottom: -100px;
+  font-size: small;
+  font-weight: normal;
+  color: #08155ca9;
+  letter-spacing: 2px;
+}
+
+.quality-title p{
+  margin-top: -40px;
+  font-size: larger;
+  font-weight: normal;
+  color: #08155ca9;
+  letter-spacing: 2px;
+}
+
+.quality-grid {
+  display: grid;
+  margin-top: 50px;
+  margin-left: 0px;
+  grid-template-columns: auto auto auto auto;
+  padding: 0px;
+  gap: 20px;
+}
+
+.quality-item {
+  height: auto;
+}
+
+.quality-item img{
+  max-width:25%;
+  max-height:25%;
+}
+
+.quality-item h3{
+  font-size: x-large;
+  color: #08155cd5;
+}
+
+.quality-item p{
+  font-weight: normal;
+  color: #08155ca9;
+}
+
+/*Style for section 4*/
+
