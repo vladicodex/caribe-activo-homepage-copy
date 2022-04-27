@@ -404,3 +404,45 @@ body{
 
 /*Style for section 4*/
 
+.section4{
+  margin-top: -65px;
+  padding-bottom: 100px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: auto;
+  background-image: url("../imgs/whatsapp-contact-section/omar-bg.jpg");
+  background-size: cover;
+}
+
+.whatsapp-contact{
+  color: white;
+  text-align: left;
+  max-width: 600px;
+  height: auto;
+}
+
+.whatsapp-contact h1{
+  color: white;
+  padding-top: 100px;
+}
+
+.whatsapp-contact p{
+  width: 64%;
+  margin-top: -30px;
+  padding-bottom: 20px;
+  font-size: x-large;
+}
+
+.whatsapp-contact span a{
+  color: rgb(0, 202, 0);
+  font-weight: bold;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
