@@ -498,3 +498,39 @@ body{
   color: rgba(0, 0, 0, 0.650);
 }
 
+/*Style for the Footer*/
+
+footer{
+  background-color: #0050da;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer-contact{
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1px;
+}
+
+.item-location a{
+  text-decoration: none;
+  color: white;
+  line-height : 25px;
+
+}
+
+.item-location img{
+  max-width: 15px;
+  filter: invert();
+}
+
+.item-location iframe{
+  margin-top: 10px;
+}
+
+/**********/
+
