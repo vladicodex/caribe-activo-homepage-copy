@@ -646,3 +646,40 @@ footer{
 }
 
 /**********/
+
+.footer-copyright{
+  display: grid;
+  grid-template-columns: auto max-content;
+  gap: 10px;
+  margin-top: 50px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: rgba(255, 255, 255, 0.543);
+  border-width: 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.copyright{
+  text-align: left;
+}
+
+.copyright-link{
+  color: #7bfeff;
+}
+
+.rating-imgs{
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: right;
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  gap: 10px;
+}
+
+.rating-imgs-item img{
+  width: 100px;
+}
+
+/**********/
