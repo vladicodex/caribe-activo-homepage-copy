@@ -563,4 +563,86 @@ footer{
   line-height: 22px;
 }
 
-/*Me quede aquí*/
+/**********/
+
+.footer-rating{
+  margin-top: 30px;
+  text-align: left;
+}
+
+.rating-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+
+.rating-grid-item{
+  background-color: #e0ecfc;
+  border-radius: 25px;
+  padding:10px;
+}
+
+/***/
+.rating-header-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.rating-header-grid-img img{
+  border-radius: 100%;
+  max-width: 60%;
+}
+
+.rating-customer-name{
+  color: black;
+}
+
+.rating-date{
+  color: #b8b4bc;
+  font-size: small;
+}
+
+.rating-header-grid-logo{
+  text-align: right;
+}
+
+.rating-header-grid-logo img{
+  max-width: 40%;
+}
+
+.rating-header-grid-logo img:hover{
+  filter: opacity(.6) drop-shadow(0 0 0 #0015ff);
+}
+
+/***/
+.rating-item-body{
+  text-align: left;
+}
+
+.rating-item-body p{
+  white-space:normal; 
+  max-height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.rating-item-body img{
+  max-width: 35%;
+}
+
+.rating-item-footer{
+  text-align: center;
+}
+
+.rating-item-footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #002fffc9;
+}
+
+/**********/
