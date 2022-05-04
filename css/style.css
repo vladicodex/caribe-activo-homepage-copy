@@ -556,3 +556,11 @@ footer{
 }
 
 /**********/
+
+.item-links a{
+  color: #7bfeff;
+  text-decoration: none;
+  line-height: 22px;
+}
+
+/*Me quede aquí*/
