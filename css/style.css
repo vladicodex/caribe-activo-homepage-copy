@@ -16,6 +16,10 @@ body{
       padding: 1px 100px;
   }
 
+  .navbar-menu-mobile{
+    display:none;
+  }
+
   /* Links inside the navbar */
   .header-navbar a, button {
     margin: 10px;
@@ -88,6 +92,95 @@ body{
     border-style:solid;
     border-radius: 50px;
     border-width: 1px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  /* Navbar container */
+  .header-navbar {
+    overflow: hidden;
+    background-color: #1024d4;
+    margin: -10px;
+    padding: 10px;
+    width:100%;
+    height: 200px;
+  }
+  
+  .navbar-logo{
+    float: left;
+    padding: 0px 0px;
+  }
+
+  .navbar-menu{
+    display:none;
+  }
+
+  .navbar-menu-mobile{
+    display: initial;
+  }
+
+   /* The dropdown container */
+   .navbar-menu-mobile {
+    float: right;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .navbar-menu-mobile-btn {
+    float: right;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    border-radius: 10px;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 20px; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a gray background color to navbar links on hover */
+  .navbar-menu-mobile a:hover, button:hover{
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 20px;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .navbar-menu-mobile-items{
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Links inside the dropdown */
+  .navbar-menu-mobile-items a {
+    float:left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .navbar-menu-mobile-items a:hover {
+    background-color: rgba(54, 54, 54, 0.363);
+    border-radius: 20px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .navbar-menu-mobile:hover .navbar-menu-mobile-items {
+    display:inline-block;
+    margin-top: 75px;
+    margin-left: -200px;
+    border-radius: 20px;
+    padding: 0px;
+  }
+  
+
+/**/
+
 }
 
 /*Style for section 1*/
