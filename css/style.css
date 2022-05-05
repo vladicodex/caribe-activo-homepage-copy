@@ -95,7 +95,7 @@ body{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
   /* Navbar container */
   .header-navbar {
@@ -233,7 +233,7 @@ body{
   filter:brightness(50%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .section1{
     padding-top: 1px;
     width: fit-content;
@@ -464,7 +464,7 @@ body{
   margin-bottom: -5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
   .section2{
     padding-left: 10px;
@@ -633,7 +633,7 @@ body{
   color: #08155ca9;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .section3{
     margin-top: -20px;
     padding-bottom: 55px;
@@ -722,7 +722,7 @@ body{
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .section4{
     padding-left: 20px;
     padding-right: 20px;
@@ -796,7 +796,7 @@ body{
   color: rgba(0, 0, 0, 0.650);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .know-us{
     margin: auto;
     margin-top: 50px;
@@ -1041,7 +1041,7 @@ footer{
   width: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   footer{
     margin-left: -10px;
     margin-right: -10px;
